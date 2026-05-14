@@ -1,0 +1,33 @@
+{
+  "name": "amazonclone",
+  "version": "1.0.0",
+  "description": "Este é um projeto de clone da tela Inicial da Amazon, desenvolvido para fins educacionais. O objetivo é criar uma interface semelhante à do Amazon, utilizando tecnologias web modernas.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "tailwindcss -i ./input.css -o ./src/css/styles.css --watch",
+    "build": "tailwindcss -i ./input.css -o ./src/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DennyAzevedo/AmazonClone.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "amazon",
+    "clone",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Denny Paulista Azevedo Filho",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DennyAzevedo/AmazonClone/issues"
+  },
+  "homepage": "https://github.com/DennyAzevedo/AmazonClone#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}
